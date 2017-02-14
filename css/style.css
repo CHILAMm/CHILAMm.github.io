@@ -2,13 +2,16 @@
 h4,h5,h6,h1,h2,h3{
 	margin-top:0;
 }
-
 ul,ol{margin:0;}
 p{margin:0;}
-html,body{font-family:'Lato',sans-serif;background:#fff;}
+html,body{
+	font-family:'Lato',sans-serif;
+	background:#fff;
+}
 
 /* 头部样式 */
-.header{background:url("../images/m.png") no-repeat 0;
+.header{
+	background:url("../images/m.png") no-repeat 0;
 	background-size:cover;
 	-webkit-background-size:cover;
 	-moz-background-size:cover;
@@ -16,29 +19,92 @@ html,body{font-family:'Lato',sans-serif;background:#fff;}
 	-o-background-size:cover;
 	min-height:400px;position:relative;
 }
-.header-profile{position:absolute;bottom:-26%;left:42%;}
-.header-top{text-align:center;margin-top:8%;}
-.header-top h2{font-size:35px;font-weight:800;color:#2b3b4b;margin:10px 0 5px 0;}
-.header-top small{font-size:16px;font-weight:300;color:#7f8a90;}
+.header-profile{
+	position:absolute;
+	bottom:-26%;
+	left:42%;
+}
+.header-top{
+	text-align:center;
+	margin-top:8%;
+}
+.header-top h2{
+	font-size:35px;
+	font-weight:800;
+	color:#2b3b4b;
+	margin:10px 0 5px 0;
+}
+.header-top small{
+	font-size:16px;
+	font-weight:300;
+	color:#7f8a90;
+}
 
 /* 关于简介 */
-.about{margin:4em 0;}
-.about-top{}
-h3.top-title{font-weight:800;font-size:28px;text-transform:uppercase;text-align:center;}
-span.line{width:5%;height:1px;background:#2b3b4b;display:block;margin:0 auto;}
-.about-top p.about-p{font-weight:700;font-size:18px;color:#7f8a90;margin:10px 0 15px 0;}
-.about-top p{font-weight:400;font-size:17px;color:#7f8a90}
-.about-row{margin-top:15px;}ul.about-details{padding:0;}
-ul.about-details li{display:block;margin:1.5em 0;}
+.about{
+	margin:4em 0;
+}
+.about-top{
+	margin:10px;
+}
+h3.top-title{
+	font-weight:800;
+	font-size:28px;
+	text-transform:uppercase;
+	text-align:center;
+	margin-top:40px;
+}
+span.line{
+	width:5%;
+	height:1px;
+	background:#2b3b4b;
+	display:block;
+	margin:0 auto;
+}
+.about-top p.about-p{
+	font-weight:700;
+	font-size:18px;
+	color:#7f8a90;
+	margin:10px 0 15px 0;
+}
+.about-top p{
+	font-weight:400;
+	font-size:17px;
+	color:#7f8a90
+}
+.about-row{
+	margin-top:15px;
+}
+ul.about-details{padding:0;}
+ul.about-details li{
+	display:block;
+	margin:1.5em 0;
+}
 ul.about-details li p{font-weight:800;font-size:20px;color:#7f8a90;}
 ul.about-details li p span{font-weight:400;color:#7f8a90;}
 ul.about-details li p span a{font-weight:400;color:#7f8a90;text-decoration:none;}
 .about-row-column h3{font-size:22px;color:#7f8a90;font-weight:800;margin-top:1em;}
+
+/* 个人爱好 */
 ul.hoby{padding:0;margin-bottom:1em;}
 ul.hoby li{display:inline-block;margin:1em 0.5em;}
-ul.hoby li i{width:85px;height:85px;background:url(../images) no-repeat;
-	cursor:pointer;display:block;
+ul.hoby li i{
+	width:85px;
+	height:85px;
+	background:url(../images/img-icon.png) no-repeat;
+	cursor:pointer;
+	display:block;
 }
+/* 鼠标移入 图标半透明 */
+ul.hoby li i:hover{opacity:0.5;}
+
+ul.hoby li i.tv{background-position:0px 0px;}
+ul.hoby li i.car{background-position:-99px 0px;}
+ul.hoby li i.music{background-position:-197px 0px;}
+ul.hoby li i.shopping{background-position:-296px 0px;}
+ul.hoby li i.reading{background-position:-392px 0px;}
+ul.hoby li i.travel{background-position:-491px 0px;}
+ul.hoby li i.tea{background-position:-586px 0px;}
 
 a.download{
 	color:#fff;
@@ -55,11 +121,35 @@ a.download{
 	-ms-border-radius:6px;
 	margin-left:0.5em;
 }
+a.download span{
+	background:url(../images/dold.png) no-repeat;
+	width:32px;
+	height:32px;
+	display:inline-block;
+	vertical-align:middle;
+	margin-right:0.5em;
+}
+a.download:hover{
+	background:#6ab8ea;
+	border-bottom:4px solid #2980b9;
+	transition:0.5s all;
+	-webkit-transition:0.5s all;
+	-o-transition:0.5s all;
+	-ms-transition:0.5s all;
+	-moz-transition:0.5s all;
+}
+
 
 /* 个人经历 */
-.experience{background:#f1f2f7;min-height:1050px;}
+.experience{
+	background:#f1f2f7;
+	min-height:1050px;
+}
 .exp-top{padding:2em 0;}
-.exp-devide{position:relative;text-align:center;}
+.exp-devide{
+	position:relative;
+	text-align:center;
+}
 .exp-devide h4{
 	color:#2b3b4b;
 	background:#d4d4d4;
@@ -82,7 +172,7 @@ a.download{
 /* 经历中间样式 */
 span.devide-line{
 	width:3px;
-	height:450px;
+	height:430px;
 	position:absolute;
 	top:30px;
 	display:initial;
@@ -90,6 +180,7 @@ span.devide-line{
 }
 label.bag{
 	width:32px;height:32px;
+	background:url(../images/bag.png) no-repeat;
 	display:initial;
 	position:absolute;
 	top:5em;
@@ -98,6 +189,7 @@ label.bag{
 label.book{
 	width:32px;
 	height:32px;
+	background:url(../images/book.png) no-repeat;
 	display:initial;
 	position:absolute;
 	top:5em;
@@ -156,4 +248,28 @@ label.book{
 	position:relative;
 	left:-3em;
 	top:1.5em;
+}
+/* 教育 */
+.education{margin-top:35%;}
+
+/* 页脚 */
+.footer{
+	padding:2.5em 0;
+	text-align:center;
+	background:#2b3b4b;}
+	p.copyright{
+		font-size:15px;
+		color:#fff;
+		font-weight:400;
+	}
+p.copyright a{
+	color:#2980b9;
+	text-decoration:none;
+}
+p.copyright a:hover{
+	color:#fff;
+	-webkit-transition:0.5s all;
+	-o-transition:0.5s all;
+	-moz-transition:0.5s all;
+	-ms-transition:0.5s all;
 }
