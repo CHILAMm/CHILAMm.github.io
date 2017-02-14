@@ -1,0 +1,159 @@
+/*共用样式*/
+h4,h5,h6,h1,h2,h3{
+	margin-top:0;
+}
+
+ul,ol{margin:0;}
+p{margin:0;}
+html,body{font-family:'Lato',sans-serif;background:#fff;}
+
+/* 头部样式 */
+.header{background:url("../images/m.png") no-repeat 0;
+	background-size:cover;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-ms-background-size:cover;
+	-o-background-size:cover;
+	min-height:400px;position:relative;
+}
+.header-profile{position:absolute;bottom:-26%;left:42%;}
+.header-top{text-align:center;margin-top:8%;}
+.header-top h2{font-size:35px;font-weight:800;color:#2b3b4b;margin:10px 0 5px 0;}
+.header-top small{font-size:16px;font-weight:300;color:#7f8a90;}
+
+/* 关于简介 */
+.about{margin:4em 0;}
+.about-top{}
+h3.top-title{font-weight:800;font-size:28px;text-transform:uppercase;text-align:center;}
+span.line{width:5%;height:1px;background:#2b3b4b;display:block;margin:0 auto;}
+.about-top p.about-p{font-weight:700;font-size:18px;color:#7f8a90;margin:10px 0 15px 0;}
+.about-top p{font-weight:400;font-size:17px;color:#7f8a90}
+.about-row{margin-top:15px;}ul.about-details{padding:0;}
+ul.about-details li{display:block;margin:1.5em 0;}
+ul.about-details li p{font-weight:800;font-size:20px;color:#7f8a90;}
+ul.about-details li p span{font-weight:400;color:#7f8a90;}
+ul.about-details li p span a{font-weight:400;color:#7f8a90;text-decoration:none;}
+.about-row-column h3{font-size:22px;color:#7f8a90;font-weight:800;margin-top:1em;}
+ul.hoby{padding:0;margin-bottom:1em;}
+ul.hoby li{display:inline-block;margin:1em 0.5em;}
+ul.hoby li i{width:85px;height:85px;background:url(../images) no-repeat;
+	cursor:pointer;display:block;
+}
+
+a.download{
+	color:#fff;
+	font-size:20px;
+	text-transform:uppercase;
+	text-decoration:none;
+	background:#2980b9;
+	padding:20px 15px;
+	border-bottom:4px solid #6ab8ea;
+	border-radius:6px;
+	-webkit-border-radius:6px;
+	-o-border-radius:6px;
+	-moz-border-radius:6px;
+	-ms-border-radius:6px;
+	margin-left:0.5em;
+}
+
+/* 个人经历 */
+.experience{background:#f1f2f7;min-height:1050px;}
+.exp-top{padding:2em 0;}
+.exp-devide{position:relative;text-align:center;}
+.exp-devide h4{
+	color:#2b3b4b;
+	background:#d4d4d4;
+	padding:10px;
+	text-transform:uppercase;
+	font-size:20px;
+	display:block;
+	text-align:center;
+	width:15%;
+	font-weight:800;
+	border-radius:6px;
+	-webkit-border-radius:6px;
+	-o-border-radius:6px;
+	-ms-border-radius:6px;
+	-moz-border-radius:6px;
+	margin:0 auto;
+	position:relative;
+}
+
+/* 经历中间样式 */
+span.devide-line{
+	width:3px;
+	height:450px;
+	position:absolute;
+	top:30px;
+	display:initial;
+	background:#d4d4d4;
+}
+label.bag{
+	width:32px;height:32px;
+	display:initial;
+	position:absolute;
+	top:5em;
+	left:39.7em;
+}
+label.book{
+	width:32px;
+	height:32px;
+	display:initial;
+	position:absolute;
+	top:5em;
+	left:39.7em;
+}
+.exp-devide-grid-right{
+	width:40%;
+	text-align:left;
+	position:absolute;
+	top:7em;
+	left:43.255em;
+}
+.exp-devide-grid-right:before{
+	position:relative;
+	left:-3em;
+	top:1.5em;
+}
+.exp-devide-grid-right h5,.exp-devide-grid-left h5,.exp-devide-grid-rightb h5{
+	color:#2b3b4b;
+	text-transform:uppercase;
+	font-size:18px;
+	font-weight:800;
+	margin:0;
+}
+.exp-devide-grid-right small,.exp-devide-grid-left small,.exp-devide-grid-rightb small{
+	font-size:16px;
+	font-weight:400;
+	color:#7f8a90;
+	padding:0 0 10px 0;
+}
+.exp-devide-grid-right p,.exp-devide-grid-left p,.exp-devide-grid-rightb p{
+	font-size:14px;
+	font-weight:400;
+	color:#7f8a90;
+	line-height:1.2em;
+}
+.exp-devide-grid-left{
+	width:40%;
+	text-align:right;
+	position:absolute;
+	top:12em;left:5.8em;
+}
+.exp-devide-grid-left:before{
+	position:relative;
+	left:3em;
+	top:1.5em;
+}
+.exp-devide-grid-rightb{
+	width:40%;
+	text-align:left;
+	position:absolute;
+	top:20em;
+	left:43.255em;
+}
+.exp-devide-grid-rightb:before{
+	position:relative;
+	left:-3em;
+	top:1.5em;
+}
