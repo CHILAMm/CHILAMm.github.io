@@ -85,7 +85,7 @@
 					<p>1、熟练切图，将UI设计转化为符合w3c规范的div+css静态页面，确保浏览器及平台的性能和兼容性。</p>
 					<p>2、使用JavaScript和jQuery实现页面上的动态效果以及交互效果</p>
 					<br>
-					<p>负责项目：<a target="_blank" href="http://www.yhhdz.com.cn/index/index.html">喻哈哈</a></p>
+					<p>负责项目：<a target="_blank" href="http://www.yhhdz.com.cn/index/index.html" style="text-decoretion:none">喻哈哈</a></p>
 				</div>
 				<div class="exp-devide-grid-left">
 					<h5>动力网络</h5>

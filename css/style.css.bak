@@ -220,7 +220,7 @@ label.book{
 	color:#7f8a90;
 	padding:0 0 10px 0;
 }
-.exp-devide-grid-right p,.exp-devide-grid-left p,.exp-devide-grid-rightb p{
+.exp-devide-grid-right p span,.exp-devide-grid-left p span,.exp-devide-grid-rightb p{
 	font-size:14px;
 	font-weight:400;
 	color:#7f8a90;
@@ -262,7 +262,10 @@ label.book{
 		color:#fff;
 		font-weight:400;
 	}
-p.copyright a{color:#2980b9;text-decoration:none;}
+p.copyright a{
+	color:#2980b9;
+	text-decoration:none;
+}
 p.copyright a:hover{
 	color:#fff;
 	-webkit-transition:0.5s all;
