@@ -8,37 +8,37 @@ html,body{
 	font-family:'Lato',sans-serif;
 	background:#fff;
 }
-
+body{ position:relative;}
 /* 头部样式 */
 .header{
-	background:url("../images/m.png") no-repeat 0; 
+/* 	background:url("../images/m.png") no-repeat 0; */	
+	background-color:#f99;
 	background-size:cover;
 	-webkit-background-size:cover;
 	-moz-background-size:cover;
 	-ms-background-size:cover;
 	-o-background-size:cover;
-	min-height:400px;position:relative;
+	min-height:260px;
+	position:relative;
 }
+/* .pos{padding-top:20px;} */
 .header-profile{
 	position:absolute;
 	bottom:-26%;
 	left:42%;
 }
-.header-top{
-	text-align:center;
-	margin-top:8%;
-}
 .header-top h2{
+	text-align:center;
 	font-size:35px;
 	font-weight:800;
 	color:#2b3b4b;
 	margin:10px 0 5px 0;
 }
-.header-top small{
+/* .header-top p{
 	font-size:16px;
 	font-weight:300;
 	color:#7f8a90;
-}
+} */
 
 /* 关于简介 */
 .about{
@@ -81,6 +81,9 @@ ul.about-details li{
 	margin:1.5em 0;
 }
 ul.about-details li p{font-weight:800;font-size:20px;color:#7f8a90;}
+ul.about-details li abbr{font-weight:800;font-size:20px;color:#7f8a90;}
+ul.about-details li span{font-weight:400;font-size:20px;color:#7f8a90;}
+
 ul.about-details li p span{font-weight:400;color:#7f8a90;}
 ul.about-details li p span a{font-weight:400;color:#7f8a90;text-decoration:none;}
 .about-row-column h3{font-size:22px;color:#7f8a90;font-weight:800;margin-top:1em;}
@@ -140,6 +143,28 @@ a.download:hover{
 }
 
 
+/* 条状 */
+.study1 {
+  padding: 1em 0 0;
+}
+.study2 {
+  padding: 2em 0 0;
+}
+.service-section {
+  text-align: center;
+  padding: 4em 0;
+}
+.service-grid h4 {
+  font-size: 1.5em;
+  margin: 0.9em 0;
+    font-family: 'Nunito-Bold';
+}
+.service-grid p {
+  font-size: 1em;
+  font-weight: 400;
+  color: #9CA69D;
+    line-height: 1.8em;
+}
 /* 个人经历 */
 .experience{
 	background:#f1f2f7;
@@ -178,23 +203,7 @@ span.devide-line{
 	display:initial;
 	background:#d4d4d4;
 }
-label.bag{
-	width:32px;height:32px;
-	background:url(../images/bag.png) no-repeat;
-	display:initial;
-	position:absolute;
-	top:5em;
-	left:39.7em;
-}
-label.book{
-	width:32px;
-	height:32px;
-	background:url(../images/book.png) no-repeat;
-	display:initial;
-	position:absolute;
-	top:5em;
-	left:39.7em;
-}
+
 .exp-devide-grid-right{
 	width:40%;
 	text-align:left;
@@ -250,7 +259,7 @@ label.book{
 	top:1.5em;
 }
 /* 教育 */
-.education{margin-top:35%;}
+.education{margin-top:30%;}
 
 /* 页脚 */
 .footer{
@@ -272,6 +281,10 @@ p.copyright a:hover{
 	-o-transition:0.5s all;
 	-moz-transition:0.5s all;
 	-ms-transition:0.5s all;
+}
+
+@media screen and (max-width: 600px) {
+	.callbacks_nav{top:47%;}
 }
 
 @media (max-width:1024px){
@@ -299,7 +312,7 @@ p.copyright a:hover{
 	.header-top small{font-size:14px;}
 	ul.hoby{margin-bottom:1em;}
 	.about{margin:2em 0 3em;}
-	.exp-devide h4{width:19%;}
+	.exp-devide h4{width:30%;}
 	label.bag{left:24.7em;}
 	.exp-devide-grid-right{left:28.3em;}
 	.exp-devide-grid-left{left:2.8em;}
