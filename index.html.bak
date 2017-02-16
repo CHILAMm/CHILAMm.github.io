@@ -117,7 +117,7 @@
 						<h4>jquery</h4>
 						<div class="progress">
 							<div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="58" aria-valuemin="0" aria-valuemax="100" style="width: 58%">
-								<span class="sr-only">58% Complete (info)</span>
+								<span class="sr-only">55% Complete (info)</span>
 							</div>
 						</div>
 						<h4>ionic</h4>
