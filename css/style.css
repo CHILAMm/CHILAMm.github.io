@@ -444,11 +444,11 @@ span.devide-line{
 	.exp-devide-grid-rightb{top:16em;left:15.8%;width:84%;}
 	.exp-devide-grid-right h5,.exp-devide-grid-left h5,.exp-devide-grid-rightb h5{font-size:16px;}
 	.exp-devide-grid-right p,.exp-devide-grid-left p,.exp-devide-grid-rightb p{font-size:14px;line-height:1.2em;}
-	.exp-devide-grid-right small,.exp-devide-grid-left small,.exp-devide-grid-rightb small,{font-size:15px;}
+	.exp-devide-grid-right small,.exp-devide-grid-left small,.exp-devide-grid-rightb small{font-size:15px;}
 	.experience{min-height:906px;}
 	span.devide-line{height:396px;}
 	.skills-top{padding:0em 0 0;}.
-	skill-grid h3{font-size:19px;margin:0;}
+	/*skill-grid h3{font-size:19px;margin:0;}*/
 	.skills{margin:2em 0 0;}
 	ul.social li i{width:80px;height:80px}
 	.text input[type="text"],.text textarea{width:80%;}
@@ -560,7 +560,7 @@ span.devide-line{
 	.contact-column i.mail{background-position:-48px 0px;}
 	.contact-column i.phone{background-position:-98px 0px;}
 	.exp-devide-grid-right p,.exp-devide-grid-left p,.exp-devide-grid-rightb p{font-size:13px;line-height:1.5em;}
-	.exp-devide-grid-right small,.exp-devide-grid-left small,.exp-devide-grid-rightb small,{font-size:14px;}
+	.exp-devide-grid-right small,.exp-devide-grid-left small,.exp-devide-grid-rightb small{font-size:14px;}
 	.study-grid h3 {
 		font-size: 1.5em;
 	}
